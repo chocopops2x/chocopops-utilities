@@ -19,7 +19,7 @@ public class Reach extends Module {
             .description("The reach modifier for blocks.")
             .defaultValue(4.5)
             .min(0)
-            .sliderMax(6)
+            .sliderMax(32767)
             .build()
     );
 
